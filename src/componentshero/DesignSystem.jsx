@@ -8,7 +8,7 @@ import ContentSection from "./ContentSection";
 function DesignSystem() {
   return (
     <div>
-      <div className="bg-[url(/heroimage.png)] background-contain bg-no-repeat bg-center ">
+      <div className="bg-[url(/heroimage.png)] bg-cover bg-no-repeat bg-center ">
         <Header />
         <Divider />
         <HeroSection />
